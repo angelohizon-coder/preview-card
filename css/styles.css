@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+body, .main-container {
+  padding: 7%;
+}
+
+.image {
+  position: relative;
+  left: 3.25%;
+  width: 100%;
+}
+
+.main-container {
+  border-radius: 1%;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.paragraph {
+  padding: 5% 2.5% 5% 0;
+}
+
+.sub-container {
+  border-radius: 1%;
+  background-color: hsl(244, 38%, 16%);
+}
+
+@media (max-width: 1209px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+	#image {
+		order: 1;
+	}
+
+  .image {
+    position: static;
+  }
+
+	#content {
+		order: 2;
+	}
+}
+
+@media (max-width: 767px) {
+  * {
+    text-align: center;
+  }
+
+  .statistics-content {
+    padding: 5%;
+  }
+
+  #content {
+    padding: 5%;
+  }
+}
