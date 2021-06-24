@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: https://github.com/angelohizon-coder/Preview-Card](https://your-solution-url.com)
+- Solution URL: https://github.com/angelohizon-coder/Preview-Card
 - Live Site URL: https://angelohizon-coder.github.io/Preview-Card/
 
 ## My process
